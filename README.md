@@ -23,6 +23,7 @@ There are three MVC controllers:
 * Home: controller that routes to the home view
 * Admin: controller that routes to admin view
 * Product: controller that handles the creation of a new product an the listing of all the products
+
 There are one Web API controller:
 * Storage: this admin controller provides methods to set and switch the data storage mechanism, in real time.
 
