@@ -24,8 +24,8 @@ There are three MVC controllers:
 * Admin: controller that routes to admin view
 * Product: controller that handles the creation of a new product an the listing of all the products
 
-There are one Web API controller:
-* Storage: this admin controller provides methods to set and switch the data storage mechanism, in real time.
+There is one Web API controller:
+* Storage: this admin controller provides methods to set and switch the data storage mechanism in real time.
 
 <br/><b>Use of MemoryCache to store products and data storage type</b><br/>
 I used MemoryCache class to store the products on memory and also the data storage type. No policy expiration was implemented (this should be analyzed with the business in a real scenario)
