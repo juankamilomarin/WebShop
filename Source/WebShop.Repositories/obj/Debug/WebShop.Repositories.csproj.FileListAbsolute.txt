@@ -1,0 +1,10 @@
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Repositories\bin\Debug\WebShop.Repositories.dll
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Repositories\bin\Debug\WebShop.Repositories.pdb
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Repositories\bin\Debug\WebShop.Models.dll
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Repositories\bin\Debug\WebShop.Utilities.dll
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Repositories\bin\Debug\WebShop.Models.pdb
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Repositories\bin\Debug\WebShop.Utilities.pdb
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Repositories\obj\Debug\WebShop.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Repositories\obj\Debug\WebShop.Repositories.dll
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Repositories\obj\Debug\WebShop.Repositories.pdb
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Repositories\bin\Debug\WebShop.Repositories.dll.config

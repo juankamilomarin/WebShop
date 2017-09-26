@@ -1,0 +1,3 @@
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Tests\Fakes\WebShop.DataAccess.fakes : warning : Cannot generate shim for WebShop.DataAccess.Interfaces.IGenericRepository`1: type is an interface.
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Tests\Fakes\WebShop.DataAccess.fakes : warning : Cannot generate shim for WebShop.DataAccess.Interfaces.IDatabaseRepository`1: type is an interface.
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Tests\Fakes\WebShop.DataAccess.fakes : warning : Cannot generate shim for WebShop.DataAccess.Interfaces.IMemoryRepository`1: type is an interface.

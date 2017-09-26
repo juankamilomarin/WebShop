@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Admin</h2>
+
+<table class="table table-bordered" style="width: 200px; text-align: center">
+    <thead>
+        <tr>
+            <th style="text-align: center">Current Storage</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><div id="storageType"></div></td>
+        </tr>
+        <tr>
+            <td>
+                <button id="switchStorageBtn" class="btn btn-default">
+                    Switch
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<script>
+    debugger;
+
+    var storage;
+
+    function setStorage(newStorage) {
+        debugger;
+        storage = newStorage;
+        document.getElementById("storageType").innerHTML = newStorage;
+    }
+
+    $(document).ready(function () {
+        setStorage('@ViewBag.Storage');
+
+        $(document.getElementById("switchStorageBtn"))
+            .click(function () {
+                $.ajax({
+                        type: "GET",
+                        url: "../api/admin/storage/switch"
+                    })
+                    .then(function (data) {
+                        setStorage(data);
+                    });
+            });
+    });
+</script>
+

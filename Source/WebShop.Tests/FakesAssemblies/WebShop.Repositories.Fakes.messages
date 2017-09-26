@@ -1,0 +1,2 @@
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Tests\Fakes\WebShop.Repositories.fakes : warning : Cannot generate shim for WebShop.Repositories.Interfaces.IGenericRepository`1: type is an interface.
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Tests\Fakes\WebShop.Repositories.fakes : warning : Cannot generate shim for WebShop.Repositories.Memory.MemoryRepository`1+<>c: type is not supported because of internal limitations.

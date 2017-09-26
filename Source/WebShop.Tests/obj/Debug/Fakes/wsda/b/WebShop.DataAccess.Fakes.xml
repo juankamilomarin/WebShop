@@ -1,0 +1,377 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebShop.DataAccess.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:WebShop.DataAccess.AbstractClasses.Fakes.ShimDatabaseRepositoryBase`1">
+            <summary>Shim type of WebShop.DataAccess.AbstractClasses.DatabaseRepositoryBase`1</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.ShimDatabaseRepositoryBase`1.#ctor(WebShop.DataAccess.AbstractClasses.DatabaseRepositoryBase{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:WebShop.DataAccess.AbstractClasses.Fakes.ShimDatabaseRepositoryBase`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.ShimDatabaseRepositoryBase`1.AllInstances.Dispose">
+            <summary>Sets the shim of DatabaseRepositoryBase`1.Dispose()</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.ShimDatabaseRepositoryBase`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.ShimDatabaseRepositoryBase`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.ShimDatabaseRepositoryBase`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.ShimDatabaseRepositoryBase`1.Bind(WebShop.DataAccess.Interfaces.IDatabaseRepository{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.ShimDatabaseRepositoryBase`1.Bind(WebShop.DataAccess.Interfaces.IGenericRepository{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.ShimDatabaseRepositoryBase`1.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.ShimDatabaseRepositoryBase`1.Constructor">
+            <summary>Sets the shim of DatabaseRepositoryBase`1.DatabaseRepositoryBase`1()</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.ShimDatabaseRepositoryBase`1.Dispose">
+            <summary>Sets the shim of DatabaseRepositoryBase`1.Dispose()</summary>
+        </member>
+        <member name="T:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1">
+            <summary>Shim type of WebShop.DataAccess.AbstractClasses.MemoryRepositoryBase`1</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.#ctor(WebShop.DataAccess.AbstractClasses.MemoryRepositoryBase{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.AllInstances.Dispose">
+            <summary>Sets the shim of MemoryRepositoryBase`1.Dispose()</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.AllInstances.GetAll">
+            <summary>Sets the shim of MemoryRepositoryBase`1.GetAll()</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.AllInstances.InsertOrUpdateT0">
+            <summary>Sets the shim of MemoryRepositoryBase`1.InsertOrUpdate(!0 entity)</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.Bind(WebShop.DataAccess.Interfaces.IGenericRepository{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.Bind(WebShop.DataAccess.Interfaces.IMemoryRepository{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.Constructor">
+            <summary>Sets the shim of MemoryRepositoryBase`1.MemoryRepositoryBase`1()</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.Dispose">
+            <summary>Sets the shim of MemoryRepositoryBase`1.Dispose()</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.GetAll">
+            <summary>Sets the shim of MemoryRepositoryBase`1.GetAll()</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.InsertOrUpdateT0">
+            <summary>Sets the shim of MemoryRepositoryBase`1.InsertOrUpdate(!0 entity)</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.ShimMemoryRepositoryBase`1.StaticConstructor">
+            <summary>Sets the shim of MemoryRepositoryBase`1.MemoryRepositoryBase`1()</summary>
+        </member>
+        <member name="T:WebShop.DataAccess.AbstractClasses.Fakes.StubDatabaseRepositoryBase`1">
+            <summary>Stub type of WebShop.DataAccess.AbstractClasses.DatabaseRepositoryBase`1</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.StubDatabaseRepositoryBase`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.StubDatabaseRepositoryBase`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.StubDatabaseRepositoryBase`1.GetAll">
+            <summary>Sets the stub of DatabaseRepositoryBase`1.GetAll()</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.AbstractClasses.Fakes.StubDatabaseRepositoryBase`1.GetAll01">
+            <summary>Sets the stub of DatabaseRepositoryBase`1.GetAll()</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.StubDatabaseRepositoryBase`1.InitializeStub">
+            <summary>Initializes a new instance of type StubDatabaseRepositoryBase</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.StubDatabaseRepositoryBase`1.InsertOrUpdate(`0)">
+            <summary>Sets the stub of DatabaseRepositoryBase`1.InsertOrUpdate(!0 entity)</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.AbstractClasses.Fakes.StubDatabaseRepositoryBase`1.InsertOrUpdateT0">
+            <summary>Sets the stub of DatabaseRepositoryBase`1.InsertOrUpdate(!0 entity)</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.StubDatabaseRepositoryBase`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.StubDatabaseRepositoryBase`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.StubDatabaseRepositoryBase`1.MapDataReaderToList(System.Data.IDataReader)">
+            <summary>Sets the stub of DatabaseRepositoryBase`1.MapDataReaderToList(IDataReader dataReader)</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.AbstractClasses.Fakes.StubDatabaseRepositoryBase`1.MapDataReaderToListIDataReader">
+            <summary>Sets the stub of DatabaseRepositoryBase`1.MapDataReaderToList(IDataReader dataReader)</summary>
+        </member>
+        <member name="T:WebShop.DataAccess.AbstractClasses.Fakes.StubMemoryRepositoryBase`1">
+            <summary>Stub type of WebShop.DataAccess.AbstractClasses.MemoryRepositoryBase`1</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.StubMemoryRepositoryBase`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.StubMemoryRepositoryBase`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.StubMemoryRepositoryBase`1.GetEntityKey(`0)">
+            <summary>Sets the stub of MemoryRepositoryBase`1.GetEntityKey(!0 entity)</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.AbstractClasses.Fakes.StubMemoryRepositoryBase`1.GetEntityKeyT0">
+            <summary>Sets the stub of MemoryRepositoryBase`1.GetEntityKey(!0 entity)</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.AbstractClasses.Fakes.StubMemoryRepositoryBase`1.InitializeStub">
+            <summary>Initializes a new instance of type StubMemoryRepositoryBase</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.StubMemoryRepositoryBase`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.AbstractClasses.Fakes.StubMemoryRepositoryBase`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebShop.DataAccess.Interfaces.Fakes.StubIDatabaseRepository`1">
+            <summary>Stub type of WebShop.DataAccess.Interfaces.IDatabaseRepository`1</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Interfaces.Fakes.StubIDatabaseRepository`1.#ctor">
+            <summary>Initializes a new instance of type StubIDatabaseRepository</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.Interfaces.Fakes.StubIDatabaseRepository`1.Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.Interfaces.Fakes.StubIDatabaseRepository`1.GetAll">
+            <summary>Sets the stub of IGenericRepository`1.GetAll()</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.Interfaces.Fakes.StubIDatabaseRepository`1.InsertOrUpdateT0">
+            <summary>Sets the stub of IGenericRepository`1.InsertOrUpdate(!0 entity)</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Interfaces.Fakes.StubIDatabaseRepository`1.System#IDisposable#Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Interfaces.Fakes.StubIDatabaseRepository`1.WebShop#DataAccess#Interfaces#IGenericRepository{T}#GetAll">
+            <summary>Sets the stub of IGenericRepository`1.GetAll()</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Interfaces.Fakes.StubIDatabaseRepository`1.WebShop#DataAccess#Interfaces#IGenericRepository{T}#InsertOrUpdate(`0)">
+            <summary>Sets the stub of IGenericRepository`1.InsertOrUpdate(!0 entity)</summary>
+        </member>
+        <member name="T:WebShop.DataAccess.Interfaces.Fakes.StubIGenericRepository`1">
+            <summary>Stub type of WebShop.DataAccess.Interfaces.IGenericRepository`1</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Interfaces.Fakes.StubIGenericRepository`1.#ctor">
+            <summary>Initializes a new instance of type StubIGenericRepository</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.Interfaces.Fakes.StubIGenericRepository`1.Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.Interfaces.Fakes.StubIGenericRepository`1.GetAll">
+            <summary>Sets the stub of IGenericRepository`1.GetAll()</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.Interfaces.Fakes.StubIGenericRepository`1.InsertOrUpdateT0">
+            <summary>Sets the stub of IGenericRepository`1.InsertOrUpdate(!0 entity)</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Interfaces.Fakes.StubIGenericRepository`1.System#IDisposable#Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Interfaces.Fakes.StubIGenericRepository`1.WebShop#DataAccess#Interfaces#IGenericRepository{T}#GetAll">
+            <summary>Sets the stub of IGenericRepository`1.GetAll()</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Interfaces.Fakes.StubIGenericRepository`1.WebShop#DataAccess#Interfaces#IGenericRepository{T}#InsertOrUpdate(`0)">
+            <summary>Sets the stub of IGenericRepository`1.InsertOrUpdate(!0 entity)</summary>
+        </member>
+        <member name="T:WebShop.DataAccess.Interfaces.Fakes.StubIMemoryRepository`1">
+            <summary>Stub type of WebShop.DataAccess.Interfaces.IMemoryRepository`1</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Interfaces.Fakes.StubIMemoryRepository`1.#ctor">
+            <summary>Initializes a new instance of type StubIMemoryRepository</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.Interfaces.Fakes.StubIMemoryRepository`1.Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.Interfaces.Fakes.StubIMemoryRepository`1.GetAll">
+            <summary>Sets the stub of IGenericRepository`1.GetAll()</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.Interfaces.Fakes.StubIMemoryRepository`1.InsertOrUpdateT0">
+            <summary>Sets the stub of IGenericRepository`1.InsertOrUpdate(!0 entity)</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Interfaces.Fakes.StubIMemoryRepository`1.System#IDisposable#Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Interfaces.Fakes.StubIMemoryRepository`1.WebShop#DataAccess#Interfaces#IGenericRepository{T}#GetAll">
+            <summary>Sets the stub of IGenericRepository`1.GetAll()</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Interfaces.Fakes.StubIMemoryRepository`1.WebShop#DataAccess#Interfaces#IGenericRepository{T}#InsertOrUpdate(`0)">
+            <summary>Sets the stub of IGenericRepository`1.InsertOrUpdate(!0 entity)</summary>
+        </member>
+        <member name="T:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository">
+            <summary>Shim type of WebShop.DataAccess.Repositories.Database.ProductDatabaseRepository</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.#ctor(WebShop.DataAccess.Repositories.Database.ProductDatabaseRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.AllInstances.GetAll">
+            <summary>Sets the shim of ProductDatabaseRepository.GetAll()</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.AllInstances.InsertOrUpdateProduct">
+            <summary>Sets the shim of ProductDatabaseRepository.InsertOrUpdate(Product product)</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.AllInstances.MapDataReaderToListIDataReader">
+            <summary>Sets the shim of ProductDatabaseRepository.MapDataReaderToList(IDataReader dataReader)</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.Bind(WebShop.DataAccess.Interfaces.IDatabaseRepository{WebShop.Models.Product})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.Bind(WebShop.DataAccess.Interfaces.IGenericRepository{WebShop.Models.Product})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.ConstructorSqlConnectionString">
+            <summary>Sets the shim of ProductDatabaseRepository.ProductDatabaseRepository(SqlConnection connection, String connectionString)</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.GetAll">
+            <summary>Sets the shim of ProductDatabaseRepository.GetAll()</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.InsertOrUpdateProduct">
+            <summary>Sets the shim of ProductDatabaseRepository.InsertOrUpdate(Product product)</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Database.Fakes.ShimProductDatabaseRepository.MapDataReaderToListIDataReader">
+            <summary>Sets the shim of ProductDatabaseRepository.MapDataReaderToList(IDataReader dataReader)</summary>
+        </member>
+        <member name="T:WebShop.DataAccess.Repositories.Database.Fakes.StubProductDatabaseRepository">
+            <summary>Stub type of WebShop.DataAccess.Repositories.Database.ProductDatabaseRepository</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Database.Fakes.StubProductDatabaseRepository.#ctor(System.Data.SqlClient.SqlConnection,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Database.Fakes.StubProductDatabaseRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Database.Fakes.StubProductDatabaseRepository.GetAll">
+            <summary>Sets the stub of ProductDatabaseRepository.GetAll()</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.Repositories.Database.Fakes.StubProductDatabaseRepository.GetAll01">
+            <summary>Sets the stub of ProductDatabaseRepository.GetAll()</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Database.Fakes.StubProductDatabaseRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubProductDatabaseRepository</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Database.Fakes.StubProductDatabaseRepository.InsertOrUpdate(WebShop.Models.Product)">
+            <summary>Sets the stub of ProductDatabaseRepository.InsertOrUpdate(Product product)</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.Repositories.Database.Fakes.StubProductDatabaseRepository.InsertOrUpdateProduct">
+            <summary>Sets the stub of ProductDatabaseRepository.InsertOrUpdate(Product product)</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Database.Fakes.StubProductDatabaseRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Database.Fakes.StubProductDatabaseRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Database.Fakes.StubProductDatabaseRepository.MapDataReaderToList(System.Data.IDataReader)">
+            <summary>Sets the stub of ProductDatabaseRepository.MapDataReaderToList(IDataReader dataReader)</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.Repositories.Database.Fakes.StubProductDatabaseRepository.MapDataReaderToListIDataReader">
+            <summary>Sets the stub of ProductDatabaseRepository.MapDataReaderToList(IDataReader dataReader)</summary>
+        </member>
+        <member name="T:WebShop.DataAccess.Repositories.Memory.Fakes.ShimProductMemoryRepository">
+            <summary>Shim type of WebShop.DataAccess.Repositories.Memory.ProductMemoryRepository</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Memory.Fakes.ShimProductMemoryRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Memory.Fakes.ShimProductMemoryRepository.#ctor(WebShop.DataAccess.Repositories.Memory.ProductMemoryRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:WebShop.DataAccess.Repositories.Memory.Fakes.ShimProductMemoryRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Memory.Fakes.ShimProductMemoryRepository.AllInstances.GetEntityKeyProduct">
+            <summary>Sets the shim of ProductMemoryRepository.GetEntityKey(Product product)</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Memory.Fakes.ShimProductMemoryRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Memory.Fakes.ShimProductMemoryRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Memory.Fakes.ShimProductMemoryRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Memory.Fakes.ShimProductMemoryRepository.Bind(WebShop.DataAccess.Interfaces.IGenericRepository{WebShop.Models.Product})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Memory.Fakes.ShimProductMemoryRepository.Bind(WebShop.DataAccess.Interfaces.IMemoryRepository{WebShop.Models.Product})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Memory.Fakes.ShimProductMemoryRepository.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Memory.Fakes.ShimProductMemoryRepository.Constructor">
+            <summary>Sets the shim of ProductMemoryRepository.ProductMemoryRepository()</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Memory.Fakes.ShimProductMemoryRepository.GetEntityKeyProduct">
+            <summary>Sets the shim of ProductMemoryRepository.GetEntityKey(Product product)</summary>
+        </member>
+        <member name="T:WebShop.DataAccess.Repositories.Memory.Fakes.StubProductMemoryRepository">
+            <summary>Stub type of WebShop.DataAccess.Repositories.Memory.ProductMemoryRepository</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Memory.Fakes.StubProductMemoryRepository.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Memory.Fakes.StubProductMemoryRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Memory.Fakes.StubProductMemoryRepository.GetEntityKey(WebShop.Models.Product)">
+            <summary>Sets the stub of ProductMemoryRepository.GetEntityKey(Product product)</summary>
+        </member>
+        <member name="F:WebShop.DataAccess.Repositories.Memory.Fakes.StubProductMemoryRepository.GetEntityKeyProduct">
+            <summary>Sets the stub of ProductMemoryRepository.GetEntityKey(Product product)</summary>
+        </member>
+        <member name="M:WebShop.DataAccess.Repositories.Memory.Fakes.StubProductMemoryRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubProductMemoryRepository</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Memory.Fakes.StubProductMemoryRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebShop.DataAccess.Repositories.Memory.Fakes.StubProductMemoryRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

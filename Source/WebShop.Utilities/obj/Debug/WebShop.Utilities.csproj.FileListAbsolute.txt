@@ -1,0 +1,10 @@
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Utilities\bin\Debug\WebShop.Utilities.dll
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Utilities\bin\Debug\WebShop.Utilities.pdb
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Utilities\obj\Debug\WebShop.Utilities.dll
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Utilities\obj\Debug\WebShop.Utilities.pdb
+C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Utilities\obj\Debug\WebShop.Utilities.csprojResolveAssemblyReference.cache
+C:\Users\juank\Dropbox\Personal\Dev\Test\WebShop\WebShop.Utilities\bin\Debug\WebShop.Utilities.dll
+C:\Users\juank\Dropbox\Personal\Dev\Test\WebShop\WebShop.Utilities\bin\Debug\WebShop.Utilities.pdb
+C:\Users\juank\Dropbox\Personal\Dev\Test\WebShop\WebShop.Utilities\obj\Debug\WebShop.Utilities.csprojResolveAssemblyReference.cache
+C:\Users\juank\Dropbox\Personal\Dev\Test\WebShop\WebShop.Utilities\obj\Debug\WebShop.Utilities.dll
+C:\Users\juank\Dropbox\Personal\Dev\Test\WebShop\WebShop.Utilities\obj\Debug\WebShop.Utilities.pdb

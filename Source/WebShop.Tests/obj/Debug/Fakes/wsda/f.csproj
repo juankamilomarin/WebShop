@@ -1,0 +1,263 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="f.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <ProjectGuid>9cf3316d-961d-4362-b95a-3019213a29e9</ProjectGuid>
+    <!-- update GUID here -->
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace />
+    <!-- update root namespace -->
+    <AssemblyName>WebShop.DataAccess.Fakes</AssemblyName>
+    <!-- update assembly name -->
+    <CodeContractsEnableRuntimeChecking>True</CodeContractsEnableRuntimeChecking>
+    <CodeContractsRuntimeCheckingLevel>Full</CodeContractsRuntimeCheckingLevel>
+    <OutputPath>b</OutputPath>
+    <IntermediateOutputPath>o</IntermediateOutputPath>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE;$(CommonDefineConstants)</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <NoWarn>1587;1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE;$(CommonDefineConstants)</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <NoWarn>1587;1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes">
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PublicAssemblies\Microsoft.QualityTools.Testing.Fakes.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Aliases>mqttf</Aliases>
+    </Reference>
+    <Reference Include="WebShop.DataAccess">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Repositories\bin\Debug\WebShop.DataAccess.dll</HintPath>
+      <Aliases>wsda</Aliases>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WebShop.Models">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Repositories\bin\Debug\WebShop.Models.dll</HintPath>
+      <Aliases>wsm</Aliases>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll</HintPath>
+      <Aliases>global</Aliases>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll</HintPath>
+      <Aliases>global</Aliases>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Configuration.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WebShop">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\WebShop.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WebShop.Services">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Services\bin\Debug\WebShop.Services.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.ComponentModel.DataAnnotations.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.Caching">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Runtime.Caching.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WebShop.Utilities">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop.Repositories\bin\Debug\WebShop.Utilities.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WebActivatorEx">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\WebActivatorEx.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\Microsoft.Owin.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\System.Web.Optimization.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\System.Web.Mvc.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\Microsoft.Owin.Security.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Web.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\Microsoft.Owin.Security.OAuth.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\Owin.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\System.Web.Http.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Net.Http.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\System.Net.Http.Formatting.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.Linq.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\Newtonsoft.Json.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Runtime.Serialization.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Ninject.Web.Common">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\Ninject.Web.Common.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\Ninject.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\EntityFramework.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\Microsoft.Owin.Security.Cookies.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.Http.Owin">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\System.Web.Http.Owin.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\System.Web.Http.WebHost.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Microsoft.CSharp.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\Microsoft.Web.Infrastructure.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Web.Services.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.Razor">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\System.Web.Razor.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\System.Web.WebPages.Razor.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.WebPages">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\System.Web.WebPages.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Web.Extensions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.Linq.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.Entity.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Security.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IdentityModel">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.IdentityModel.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Numerics.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Transactions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment">
+      <HintPath>C:\Users\CCamilJu\Dropbox\Personal\Dev\Test\WebShop\WebShop\bin\System.Web.WebPages.Deployment.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
