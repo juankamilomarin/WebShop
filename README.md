@@ -32,7 +32,7 @@ I used MemoryCache class to store the products on memory and also the data stora
 
 <br/><b>Project structure</b><br/>
 The solution was diveded in different projects as follows:
-* WebShop: MVC Web application containing controllores and views (this was the only project create from a template)
+* WebShop: MVC Web application containing controllores and views (this was the only project created from a template)
 * WebShop.DataAccess: Contains the classes for accessing the data. Here you may find the repositories for both data storage mechanisms
 * WebShop.Models: Contains the models used in the application
 * WebShop.Services: Contains the services used in the applicaton. Here you may find the service that defines which specific repository to use depending on the current data storage mechanism
@@ -48,7 +48,7 @@ The solution was diveded in different projects as follows:
 ## Installation
 
 1. Download
-2. Install the database using WebShopDb.sql file
+2. Create the database using WebShopDb.sql file
 3. Open the project on Visual Studio (2015+)
 3. Run the application
 
