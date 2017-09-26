@@ -16,7 +16,7 @@ I made some assumptions to keep things simple:
 Ninject package was used for handling dependency injection. RegisterServices method was updated in NinjectWebCommon.cs class
 
 <br/><b>Data access technology choice</b><br/>
-I decided to use ADO.NET instead of EntityFramework on behalf of performance. I used store procedures from the data base to get and update the data
+I decided to use ADO.NET instead of EntityFramework on behalf of performance (although this could be argued by some of my peers). I used store procedures from the data base to get and update the data
 
 <br/><b>Use of both controllers: MVC and Web API</b><br/>
 There are three MVC controllers:
